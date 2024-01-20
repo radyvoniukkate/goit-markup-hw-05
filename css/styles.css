@@ -653,7 +653,7 @@ gap: 8px;*/
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn .icon {
+ .close-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -663,15 +663,15 @@ gap: 8px;*/
   border: none;
 }
 
-.close-btn:active + .icon {
+.close-btn:active > .close-icon{
   fill: #ffffff;
 }
 
-.close-btn:hover + .icon {
+.close-btn:hover > .close-icon{
   fill: #ffffff;
 }
 
-.close-btn:focus + .icon {
+.close-btn:focus > .close-icon{
   fill: #ffffff;
 }
 
