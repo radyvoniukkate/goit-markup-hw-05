@@ -663,10 +663,6 @@ gap: 8px;*/
   border: none;
 }
 
-.close-btn:active > .close-icon{
-  fill: #ffffff;
-}
-
 .close-btn:hover > .close-icon{
   fill: #ffffff;
 }
